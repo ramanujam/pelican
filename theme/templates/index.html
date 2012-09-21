@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}        
+<section id="content">
+    <ol id="post-list">
+        {% for article in articles_page.object_list %}        
+        <li><article class="hentry">    
+
+            <header> 
+                <h3 class="entry-title">
+                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a>
+                </h3> 
+                <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date  }}</abbr>
+            </header>
+        </article></li>
+        {% endfor %}
+    </ol><!-- /#posts-list -->
+
+</section><!-- /#content -->
+{% endblock content %}

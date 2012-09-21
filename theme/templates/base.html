@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{{ SITEURL }}/static/css/{{ CSS_FILE }}" type="text/css" />
+        <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+        {% if FEED_RSS %}
+        <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+
+        {% endblock head %}
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-906296-7']);
+          _gaq.push(['_setDomainName', 'ramanuj.me']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+
+</head>
+
+<body id="index" class="home gandhi-sans-reg">
+
+        <div id = "container">
+                <div id = "topnav">
+                        <h4><a href = "{{ SITEURL }}/index.html">Ram Parthasarathy</a></h4>
+
+                        <nav class = "social">
+                                <a href = "{{ SITEURL }}/index.html"><img src="{{ SITEURL }}/static/img/home.png"></a>
+                                <a href="http://twitter.com/ramanujam"><img src = "{{ SITEURL }}/static/img/twitter.png"></a>
+                                <a href="http://www.linkedin.com/in/ramanuj"><img src = "{{ SITEURL }}/static/img/linkedin.png"></a>
+                                <a href="http://github.com/ramanujam"><img src = "{{ SITEURL }}/static/img/github.png"></a>
+                        </nav>
+                </div>
+
+                {% block content %}
+                {% endblock %}
+
+                <div id = "sidebar">
+                        <div class = "headshot">
+                                <img src = "{{ SITEURL }}/static/img/profile.png">
+                                <h4><a href = "{{ SITEURL }}/index.html"> Ram Parthasarathy</a></h4>
+                                <p> Engineer at <a href="http://monetate.com">Monetate</a></p>
+                        </div>
+
+                        <nav class = "social">
+                                <a href = "{{ SITEURL }}/index.html"><img src="{{ SITEURL }}/static/img/home.png"></a>
+                                <a href="http://twitter.com/ramanujam"><img src = "{{ SITEURL }}/static/img/twitter.png"></a>
+                                <a href="http://www.linkedin.com/in/ramanuj"><img src = "{{ SITEURL }}/static/img/linkedin.png"></a>
+                                <a href="http://github.com/ramanujam"><img src = "{{ SITEURL }}/static/img/github.png"></a>
+                        </nav>
+
+                </div>
+        </div>
+</body>
+</html>

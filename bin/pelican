@@ -1,0 +1,3 @@
+#!/Users/ramanuj/pandora/blog/bin/python
+from pelican import main
+main()
