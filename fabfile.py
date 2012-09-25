@@ -17,12 +17,13 @@ def push(commit_message):
     local('git push origin')
 
 
-# def publish(commit_message):
-#     """Re-generates the blog, commits and pushes to github."""
-#     push(commit_message)
-#     pelican()
-#     with lcd('..'):
-#         local('git add .')
-#         with settings(warn_only=True):
-#             local('git commit -am "Pelican autocommit"')
-#         local('git push origin master')
+def publish(commit_message):
+    """Re-generates the blog, commits and pushes to github."""
+    push(commit_message)
+    pelican()
+    local('cp -R output/ ~/pandora/ramanujam.github.com/')
+    with lcd('~/pandora/ramanujam.github.com/'):
+        local('git add .')
+        with settings(warn_only=True):
+            local('git commit -am "Pelican autocommit"')
+        local('git push origin master')
