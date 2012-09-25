@@ -14,7 +14,7 @@ def push(commit_message):
     local('git add .')
     with settings(warn_only=True):
         local('git commit -am "{0}"'.format(commit_message))
-    local('git push origin source')
+    local('git push origin')
 
 
 # def publish(commit_message):
