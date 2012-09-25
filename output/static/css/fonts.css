@@ -8,9 +8,9 @@
 @font-face {
 font-family: 'Droid Sans Mono';
 src: url('fonts/DroidSansMono-webfont.eot');
-src: local('☺'),
-     url('fonts/DroidSansMono-webfont.woff') format('woff'),
-     url('fonts/DroidSansMono-webfont.ttf') format('truetype'),
+src: local('☺'), 
+     url('fonts/DroidSansMono-webfont.woff') format('woff'), 
+     url('fonts/DroidSansMono-webfont.ttf') format('truetype'), 
      url('fonts/DroidSansMono-webfont.svg#webfontX4pGz9fc') format('svg');
 font-weight: 400;
 font-style: normal;
@@ -62,3 +62,4 @@ font-style: normal;
     font-style: normal;
 
 }
+
