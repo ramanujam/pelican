@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = u"Ram"
+AUTHOR = u"ram"
 SITENAME = u"Ram Parthasarathy"
 SITEURL = '/'
 TIMEZONE = 'America/New_York'
