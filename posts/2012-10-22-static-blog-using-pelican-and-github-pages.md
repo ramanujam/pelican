@@ -1,4 +1,6 @@
-Date: 2012-10-22
+Date: 2012-09-25
 Title: Static blog using pelican and github pages
 
-New static blog
+Over the last six years, i have blogged in many different places both for fun and profit. It helped me meet many interesting folks through blog meets and various conferences and in the journey i also made some great friends. In the last year or two i mostly stopped blogging. Thanks to twitter, there was always a place to express your thoughts in a short and fast manner.Even though i had a couple of dormant blogs, i didn't feel like publishing there when i wanted to blog. Hopefully, this new setup will change that. After spending some time and exploring a few different options, i decided to go with [Pelican](http://pelican.notmyidea.org/).
+
+I knew i wanted a static blog and also one than ran on Python rather than ruby. So, that eliminated the more popular static blog generators like Jekyll, Octopress framework and many more. There are a few other python based static blog generators that work well out of the box and are more popular than Pelican but i liked the configurabiltiy of Pelican and the ease of writing a custom theme using Jinja templates.
