@@ -3,7 +3,7 @@
 
 AUTHOR = u"ram"
 SITENAME = u"Ram Parthasarathy"
-SITEURL = '/'
+SITEURL = 'ramanuj.me'
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG='en'

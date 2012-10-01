@@ -25,5 +25,5 @@ def publish(commit_message):
     with lcd('~/pandora/ramanujam.github.com/'):
         local('git add .')
         with settings(warn_only=True):
-            local('git commit -am "pelican autocommit"')
+            local('git commit -am "Auto commit from pelican"')
         local('git push origin master')
