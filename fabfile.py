@@ -19,6 +19,7 @@ def push(commit_message):
 
 def publish(commit_message):
     """Re-generates the blog, commits and pushes to github."""
+    """fab publish:'My commit message'"""
     push(commit_message)
     pelican()
     local('cp -R output/ ~/pandora/ramanujam.github.com/')
