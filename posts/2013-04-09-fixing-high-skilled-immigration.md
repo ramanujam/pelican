@@ -87,7 +87,7 @@ Here are some suggestions to bring some sanity to the high skilled immigration p
 
 7. **Implement stringent checks to prevent misuse and fraud**. There are a number of bodyshops who obtain h1b visas, serve as a middle man and take a cut. This is bad for the client, bad for the employee and bad for everyone involved except the bodyshop. While there are many genuine consulting businesses utilizing visa workers, the operations of a majority of these consulting companies are fraudulent. The USCIS is very well aware of this practice but has failed to take any action.
 
-PS: I have been writing this post in parts over the past 3-4 weeks and a few nice developments have started in the meantime. Most notable one is the [fwd.us](http://fwd.us) initiative from many well known tech leaders including Mark Zuckerberg. 
+PS: I have been writing this post in parts over the past 3-4 weeks and a few nice developments have started in the meantime. Most notable one is the [fwd.us](http://fwd.us) initiative from many well known tech leaders including Mark Zuckerberg. The gang of eight's new immigration bill also has some good proposals.
 
 <a name = "fn1">[1]</a> [I-Squared Act of 2013](http://www.govtrack.us/congress/bills/113/s169#overview) is a proposal for increasing the visa limits and also providing work authorization for dependents of the visa holder.
 
