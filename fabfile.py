@@ -22,8 +22,8 @@ def publish(commit_message):
     """fab publish:'My commit message'"""
     push(commit_message)
     pelican()
-    local('cp -R output/ ~/pandora/ramanujam.github.com/')
-    with lcd('~/pandora/ramanujam.github.com/'):
+    local('cp -R output/ ~/Dropbox/pandora/ramanujam.github.com/')
+    with lcd('~/Dropbox/pandora/ramanujam.github.com/'):
         local('git add .')
         with settings(warn_only=True):
             local('git commit -am "Auto commit from pelican"')
