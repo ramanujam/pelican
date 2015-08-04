@@ -55,7 +55,7 @@ It does cost a non-trivial amount in legal and government fees and it isn’t a 
 
 In the bay area, every social gathering with people working in technology sector will have a story about how they or someone who they know made a lot of money from stock options or missed the biggest opportunity of their life. In Philadelphia, those stories don’t exist yet. The majority of the folks I worked with had very little knowledge on how options worked. With exits becoming rare and considering the time factor, my general rule of thumb is to consider stock option grants as a nice piece of paper which has little to no value. If there is an upside, it is well and good. If there isn’t one, you just move on. I think it is very important for all startup employees who hold options to understand all the implications so that they can make informed decisions. 
 
-####Be Kind.####
+####Be Kind####
 
 As a product manager at a growth stage startup, the ultimate goal is to ensure the success of the product and that would involve interacting with almost every department in the company. In this process, it is very easy to spread thin and lose focus. One hard thing every PM will have to do is learning to say ‘no’ to a good number of things and focusing on the right things. Even if there was no intention, it is very easy to offend someone or at worst sound mean. The line between being confident and being arrogant is very thin. While this applies everywhere and not just in a startup setting, the most important thing is to be kind. 
 
